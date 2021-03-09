@@ -1,0 +1,39 @@
+/* tab切换的样式 */
+.tab-control {
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+}
+
+.tab-control .tab-item {
+  flex: 1;
+  text-align: center;
+}
+
+.tab-control .title {
+  padding: 3px 5px;
+}
+
+.tab-control .title.active {
+  color: red;
+  border-bottom: 3px solid red;
+}
+
+/* slot切换的样式 */
+.nav-bar {
+  display: flex;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.nav-bar .left,
+.nav-bar .right {
+  width: 80px;
+  background: lightblue;
+}
+
+.nav-bar .center {
+  flex: 1;
+  background: lightseagreen;
+}
